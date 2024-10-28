@@ -11,6 +11,9 @@ After you set up enviroment.
 Run the scripts:
 In terminal: 
 Example: (to join foulder login_logout)
+
 cd .\login_logout\
+
 pytest -s .\test_login.py 
+
 pytest -s .\test_logout.py   
