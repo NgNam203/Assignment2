@@ -16,7 +16,9 @@ Cách chạy kiểm thử:
 + Chạy lệnh trong terminal : git clone https://github.com/NgNam203/Assignment2.git
 + Cách chạy một chức năng cụ thể:
   cd .\login_logout\
-  pytest -s .\test_login.py 
+  
+  pytest -s .\test_login.py
+  
   pytest -s .\test_logout.py
 
 Tóm tắt các chức năng kiểm thử (thư mục kiểm thử của chức năng):
