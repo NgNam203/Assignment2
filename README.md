@@ -29,11 +29,11 @@ Tóm tắt các chức năng kiểm thử (thư mục kiểm thử của chức 
 + Thiết kế phản hồi đối với điện thoại (mobile)
 
 Các Test Case - tên hàm:
-Đăng xuất/ Đăng nhập.
-TC001: Kiểm thử đăng nhập với dữ liệu hợp lệ - test_valid_login.
-TC002: Kiểm thử đăng nhập với dữ liệu không hợp lệ - test_invalid_login.
-TC003: Kiểm thử đăng nhập sai quá số lần - test_exceeded_attempts.
-TC004: Kiểm thử đăng xuất - test_logout.
++ Đăng xuất/ Đăng nhập.
+- TC001: Kiểm thử đăng nhập với dữ liệu hợp lệ - test_valid_login.
+- TC002: Kiểm thử đăng nhập với dữ liệu không hợp lệ - test_invalid_login.
+- TC003: Kiểm thử đăng nhập sai quá số lần - test_exceeded_attempts.
+- TC004: Kiểm thử đăng xuất - test_logout.
 
 Đăng ký.
 TC005: Kiểm thử đăng ký thành công - test_register_success.
