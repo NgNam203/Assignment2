@@ -29,27 +29,27 @@ Tóm tắt các chức năng kiểm thử (thư mục kiểm thử của chức 
 + Thiết kế phản hồi đối với điện thoại (mobile)
 
 Các Test Case - tên hàm:
-Đăng xuất/ Đăng nhập
-TC001: Kiểm thử đăng nhập với dữ liệu hợp lệ - test_valid_login
-TC002: Kiểm thử đăng nhập với dữ liệu không hợp lệ - test_invalid_login
-TC003: Kiểm thử đăng nhập sai quá số lần - test_exceeded_attempts
-TC004: Kiểm thử đăng xuất - test_logout
+Đăng xuất/ Đăng nhập.
+TC001: Kiểm thử đăng nhập với dữ liệu hợp lệ - test_valid_login.
+TC002: Kiểm thử đăng nhập với dữ liệu không hợp lệ - test_invalid_login.
+TC003: Kiểm thử đăng nhập sai quá số lần - test_exceeded_attempts.
+TC004: Kiểm thử đăng xuất - test_logout.
 
-Đăng ký
-TC005: Kiểm thử đăng ký thành công - test_register_success
-TC006: Kiểm thử đăng ký với thiếu trường bắt buộc (cụ thể là Last Name) - test_register_missing_fields
-TC007: Kiểm thử với dữ liệu không hợp lệ (email sai định dạng) - test_register_invalid_email
-TC008: Kiểm thử với email đã tồn tại - test_register_existing_email
-TC009: Kiểm thử đăng ký khi không tích Privacy Policy - test_register_without_privacy_policy
+Đăng ký.
+TC005: Kiểm thử đăng ký thành công - test_register_success.
+TC006: Kiểm thử đăng ký với thiếu trường bắt buộc (cụ thể là Last Name) - test_register_missing_fields.
+TC007: Kiểm thử với dữ liệu không hợp lệ (email sai định dạng) - test_register_invalid_email.
+TC008: Kiểm thử với email đã tồn tại - test_register_existing_email.
+TC009: Kiểm thử đăng ký khi không tích Privacy Policy - test_register_without_privacy_policy.
 
-Tìm kiếm sản phẩm
-TC010: Kiểm thử tìm kiếm thành công với từ khóa hợp lệ - test_search_valid_keyword
-TC011: Kiểm thử tìm kiếm thất bại với từ khóa không hợp lệ - test_search_invalid_keyword
-TC012: Kiểm thử tìm kiếm với tùy chọn tìm kiếm trong mô tả sản phẩm - test_search_in_description
-TC013: Kiểm thử tìm kiếm trong một danh mục cụ thể - test_search_in_specific_category
+Tìm kiếm sản phẩm.
+TC010: Kiểm thử tìm kiếm thành công với từ khóa hợp lệ - test_search_valid_keyword.
+TC011: Kiểm thử tìm kiếm thất bại với từ khóa không hợp lệ - test_search_invalid_keyword.
+TC012: Kiểm thử tìm kiếm với tùy chọn tìm kiếm trong mô tả sản phẩm - test_search_in_description.
+TC013: Kiểm thử tìm kiếm trong một danh mục cụ thể - test_search_in_specific_category.
 
-Thêm sản phẩm vào giỏ hàng 
-TC014: Kiểm thử thêm một sản phẩm vào giỏ hàng - test_add_single_product_to_cart
+Thêm sản phẩm vào giỏ hàng.
+TC014: Kiểm thử thêm một sản phẩm vào giỏ hàng - test_add_single_product_to_cart.
 TC015: Kiểm thử thêm nhiều sản phẩm khác nhau vào giỏ hàng - test_add_multiple_products_to_cart
 TC016: Kiểm thử thêm cùng một sản phẩm nhiều lần (số lượng) vào giỏ hàng và kiểm tra số tiền - test_add_same_product_multiple_times
 TC017: Kiểm thử thêm các sản phẩm với số lượng cụ thể vào giỏ hàng và kiểm tra tổng số tiền - test_add_products_with_quantity
