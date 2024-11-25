@@ -15,6 +15,7 @@ Cách chạy kiểm thử:
 + Sau khi setup Enviroment
 + Chạy lệnh trong terminal : git clone https://github.com/NgNam203/Assignment2.git
 + Cách chạy một chức năng cụ thể:
+  
   cd .\login_logout\
   
   pytest -s .\test_login.py
