@@ -28,6 +28,8 @@ Tóm tắt các chức năng kiểm thử (thư mục kiểm thử của chức 
 + Thanh toán (checkout)
 + Thiết kế phản hồi đối với điện thoại (mobile)
 
+
+
 Các Test Case - tên hàm:
 
  Đăng xuất/ Đăng nhập.
